@@ -69,4 +69,20 @@
             "dislikes": 101,
             "posterindex": 0
       }
+      ,
+      {
+            "title": "A Bronx Tale",
+            "iscore": 7.8,
+            "rating": "R",
+            "runtime": 121,
+            "released": [1993, 11, 30],
+            "country": "USA",
+            "posters": ["img/Bronxtale1.jpg", "img/bronxtale2.jpg", "img/bronxtale3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0106489/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 912,
+            "dislikes": 141,
+            "posterindex": 0
+      }
 ]
+
