@@ -83,6 +83,35 @@
             "likes": 912,
             "dislikes": 141,
             "posterindex": 0
+      }, 
+       {
+            "title": "Goodfellas",
+            "iscore": 8.7,
+            "rating": "R",
+            "runtime": 145,
+            "released": [1990, 11, 30],
+            "country": "USA",
+            "posters": ["img/goodfellas1.jpg", "img/goodfellas2.webp", "img/goodfellas3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0099685/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 1002,
+            "dislikes": 241,
+            "posterindex": 0
+      }
+      , 
+       {
+            "title": "Wallstreet",
+            "iscore": 8.7,
+            "rating": "R",
+            "runtime": 145,
+            "released": [1990, 11, 30],
+            "country": "USA",
+            "posters": ["img/wallstreet1.jpg", "img/wallstreet2.jpg", "img/wallstreet3.webp"],
+            "imdb": "https://www.imdb.com/title/tt0099685/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 1002,
+            "dislikes": 241,
+            "posterindex": 0
       }
 ]
 
