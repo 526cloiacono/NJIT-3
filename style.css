@@ -118,4 +118,11 @@ body {
 	font-size: small;
 }
 
-/* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
+.likecolor{
+    background-color: #4CAF50;
+    color: white;
+}
+.dislikecolor{
+    background-color: #f44336;
+    color: white;
+}
