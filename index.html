@@ -33,30 +33,33 @@
       </div>
 
       <div class="main">
-        <div class="row" v-for="(movie,index)in movies">
-                  <div class="col-md-6" v-for="(movie, index) in movies">
+        <div class="row">
+          <div class="col-md-6" v-for="(movie, index) in movies">
             <div class="thumbnail">
-                   <img
+              <img
                 @click="posterClick(index)"
                 class="poster img-fluid"
                 :src="movie.posters[movie.posterindex]"
               />
-              <div class="imageInfo">{{movie.posterindex}}</div>
+              <div class="imageInfo">{{movie.posterindex + 1}} of {{movie.posters.length}}</div>
+
+              <p class="title">{{movie.title}} ({{movie.country}})</p>
+              <p class="score">
+                <i class="bi bi-star" aria-hidden="true"></i> {{iscore}}
               </p>
-			    <p class="title">{{movie.title}} ({{movie.country}})</p>
-        <p class="runtime">Runtime: {{timeText(movie.runtime)}}</p>
+              <p class="runtime">Runtime: {{timeText(movie.runtime)}}</p>
               <p class="released">
                 Released: {{makeTextDate(movie.released)}} | Rated:
                 {{movie.rating}}
               </p>
-   
               <p class="websites">Websites: <a> imdb </a> | <a>website</a></p>
+
               <div class="social">
-                  <p class="likes likecolor" @click="like(index)">
+                <p class="likes likecolor" @click="like(index)">
                   <i class="bi bi-hand-thumbs-up" aria-hidden="true"></i>
                   {{movie.likes}}
                 </p>
-                 <p class="dislikes dislikecolor" @click="dislike(index)">
+                <p class="dislikes dislikecolor" @click="dislike(index)">
                   <i class="bi bi-hand-thumbs-down"></i> {{movie.dislikes}}
                 </p>
               </div>
@@ -78,8 +81,8 @@
         </div>
       </div>
     </div>
-    <!-- step5 done in step 2-->
-    <!-- This load the Vude.js code -->
+
+    <!-- This load the Vue.js code -->
     <script type="text/javascript" src="site.js"></script>
   </body>
 </html>
