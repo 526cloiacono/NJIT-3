@@ -1,6 +1,5 @@
-/* ===== Page Background ===== */
-html,
-body {
+/* Page Background */
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -8,12 +7,11 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ===== Header ===== */
+/* Header */
 .header {
     padding: 25px;
     text-align: center;
 }
-
 .header h1 {
     color: #fff;
     font-weight: 800;
@@ -21,31 +19,31 @@ body {
     text-transform: uppercase;
 }
 
-/* ===== Main Content ===== */
+/* Main Carousel */
 .main {
     background-color: transparent;
     padding: 40px 0;
 }
 
-/* ===== Movie Card ===== */
+/* Movie Card */
 .thumbnail {
     position: relative;
     padding: 25px;
-    margin: 25px;
+    margin: 25px auto;
     border-radius: 20px;
     background: linear-gradient(145deg, #ffffff, #e6e6e6);
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    max-width: 500px;
 }
 
-/* ===== Poster Image ===== */
+/* Poster Image */
 .thumbnail img {
     width: 100%;
     border-radius: 15px;
-    border: none;
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
 
-/* ===== Poster Counter ===== */
+/* Poster Counter */
 .imageInfo {
 	color: #777;
 	font-size: 12px;
@@ -57,7 +55,7 @@ body {
 	border-radius: 20px;
 }
 
-/* ===== Title ===== */
+/* Title */
 .title {
     font-size: 20px;
     font-weight: 700;
@@ -65,7 +63,7 @@ body {
     margin-top: 15px;
 }
 
-/* ===== Score Star ===== */
+/* Score */
 .score {
     background: #ffcc00;
     color: #222;
@@ -82,35 +80,23 @@ body {
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
     z-index: 10;
 }
+.score i { color: #ff9900; }
 
-.score i {
-    color: #ff9900;
-}
-
-/* ===== Text Info ===== */
-.runtime,
-.released,
-.websites {
+/* Info Text */
+.runtime, .released, .websites {
     font-size: 14px;
     color: #555;
     margin-bottom: 5px;
 }
-
-/* ===== Links ===== */
 .websites a {
     color: #0066cc;
     font-weight: 600;
     text-decoration: none;
 }
 
-/* ===== Likes / Dislikes ===== */
-.social {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.likes,
-.dislikes {
+/* Likes / Dislikes */
+.social { text-align: center; margin-top: 20px; }
+.likes, .dislikes {
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
@@ -122,23 +108,27 @@ body {
     text-align: center;
     font-weight: 600;
 }
-
 .likecolor {
     background: linear-gradient(145deg, #4CAF50, #2e7d32);
     color: white;
 }
-
 .dislikecolor {
     background: linear-gradient(145deg, #f44336, #b71c1c);
     color: white;
 }
 
-/* ===== Footer ===== */
-.footer {
-    text-align: center;
-    margin: 80px 0;
+/* Carousel Buttons */
+.btn-primary {
+    background-color: rgba(0,123,255,0.8);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
+.btn-primary:hover { background-color: rgba(0,123,255,1); }
 
+/* Footer */
+.footer { text-align: center; margin: 80px 0; }
 #github {
 	font-size: 14px;
     padding: 12px 25px;
